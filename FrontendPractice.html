@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        
+        <title>Front-End Practice</title>
+        
+        <meta charset='utf-8' name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <script src='FrontendPractice.js'></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        
+        <link rel='stylesheet' type='text/css' href='FrontendPractice.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+    </head>
+    <body align='center'>
+        
+        <div id='bg' align='center'>
+            <div class='container' align='center' style='padding:0px;'>
+                <div class='row'>
+                    <div class='col-sm' id='hero' style='padding:0px;'>
+                        <img id='heroImg' src='heroCropped2.jpg'>
+                    </div>
+                    <div class='col-sm' id='content1' style='padding:0px;'>
+                        <p style='margin: 0px;' id='moreRewards'>More Rewards. Not More Rules.</p>
+                        <p style='margin: 0px;' id='bonusRewards'>Bonus Rewards Card.</p>
+                        <p style='margin: 0px;' id='rewardsPoints'>2,500 bonus</p>
+                        <p style='margin: 0px;' id='rewardsPoints2'>rewards points</p>
+                        <p style='margin: 0px;' id='firstPurchase'>after your first purchase</p>
+                        <p style='margin: 0px;' id='noLimits'>There's nothing to sign up for, nothing to choose, <br />and no caps or limits on points you can earn.</p>
+                        <button type='button' class='btn-primary' id='applyBtn'>Apply Now</button>
+                    </div>
+                </div>
+                
+                <div class='row' id='bonusesDiv'>
+                    <div class='col-sm' id='bonus25' style='padding:0px;'>
+                        <p id='twntyfiveP' style='margin: 0px;'>25% bonus</p>
+                        <p id='twntyfiveP2' style='margin: 0px;'>on all points earned every month, automatically.</p>
+                    </div>
+                    <div class='col-sm' id='noCaps' style='padding:0px;'>
+                        <p id='capsP' style='margin: 0px;'>No Caps or Limits</p>
+                        <p id='capsP2' style='margin: 0px;'>on the points you can earn, plus you have five years to redeem points for rewards</p>
+                    </div>
+                    <div class='col-sm' id='chipEnhanced' style='padding:0px;'>
+                        <p id='chipP' style='margin: 0px;'>Chip-Enhanced Security</p>
+                        <p id='chipP2' style='margin: 0px;'>gives you the protection you need to feel confident wherever you make purchases.</p>
+                    </div>
+                </div>
+                
+                <p id='findMore'>Find out more about the Bonus Rewards Card</p>
+                
+                <div class='row' id='rewardsCardInfo'>
+                    <div class='col-sm' id='cardLeft' style='padding:0px;'>
+                        <p id='rewardsHeader' style='margin: 0px;'>Rewards Program</p>
+                        <ul id='rewardsList'>
+                            <li>Earn 1 point for every eligible net $1 you spend.</li>
+                            <li>Get a 25% bonus on all points earned every month, automatically.</li>
+                            <li>No caps or limits on the points you can earn, plus you have five years to <br />redeem points for rewards</li>
+                            <li>2,500 bonus rewards points awarded after first purchase, redeemable for <br />$25 cash back, merchandise, gift cards or travel savings.</li>
+                            <li>Redemption starts at 2,500 points for $25 cash back, or redeem 25,000 <br />points for round-trip airfare up to $325.</li>
+                        </ul>
+                        <p id='annualFeeHeader' style='margin: 0px;'>Annual Fee</p>
+                        <p id='noAnnualFee'>No Annual Fee</p>
+                    </div>
+                    <div class='col-sm' id='cardRight' style='padding:0px;'>
+                        <p id='pAPRHeader' style='margin: 0px;'>Purchase APR</p>
+                        <p id='pAPRContent'>After that, a variable APR, currently 13.24% to 24.24%.* See the Terms <br />and Conditions for complete details.</p>
+                        
+                        <p id='benefitsHeader' style='margin: 0px;'>Cardmember Benefits</p>
+                        <p id='benefitsContent'>Enjoy chip-enhanced acceptance and security plus a variety of <br />important features, including zero fraud liability4 and auto rental collision <br />damage waiver. See Consumer Card Features and Benefits for a <br />complete listing of all card benefits.</p>
+                        
+                        <p id='requirementsHeader' style='margin: 0px;'>Minimum Requirements</p>
+                        <p id='requirementsContent'>Applicant must be 18 years of age and have a U.S. address and Social <br />Security number.</p>
+                    </div>
+                </div>
+                
+                <div id='frequentlyAskedQuestionsDiv'>
+                    <div id='frequentlyAskedQuestionsAcc'>
+                        <p id='frequentlyAskedQ' onClick='toggleCollapse()'><i id='caret' class="fas fa-caret-right rotate"></i> Frequently Asked Questions</p>
+                    </div>
+                    <div id='frequentlyAskedQuestionsContent' class='hide'>
+                        <p id='earnHeader1'>Earn 1 point for every eligible net $1 you spend.</p>
+                        <p id='earnContent1'>Each month you will earn 1 point per net dollar spent on all your purchases. In addition, every month you will <br />automatically receive a bonus equal to 25% of the total points you earned in that month from your net purchases. So, <br />in total, you will earn 1.25 points for your net purchases, and you'll see the bonus portion of your monthly points total <br />displayed separately in the rewards section of your monthly statement.</p>
+                        <p id='earnHeader2'>Earn 1 point for every eligible net $1 you spend.</p>
+                        
+                        <p id='earnContent2'>Each month you will earn 1 point per net dollar spent on all your purchases. In addition, every month you will <br />automatically receive a bonus equal to 25% of the total points you earned in that month from your net purchases. So, <br />in total, you will earn 1.25 points for your net purchases, and you'll see the bonus portion of your monthly points total <br />displayed separately in the rewards section of your monthly statement.</p>
+                        <p id='earnHeader3'>Earn 1 point for every eligible net $1 you spend.</p>
+                        
+                        <p id='earnContent3'>Each month you will earn 1 point per net dollar spent on all your purchases. In addition, every month you will <br />automatically receive a bonus equal to 25% of the total points you earned in that month from your net purchases. So, <br />in total, you will earn 1.25 points for your net purchases, and you'll see the bonus portion of your monthly points total <br />displayed separately in the rewards section of your monthly statement.</p>
+                        <p id='earnHeader4'>Earn 1 point for every eligible net $1 you spend.</p>
+                        
+                        <p id='earnContent4'>Each month you will earn 1 point per net dollar spent on all your purchases. In addition, every month you will <br />automatically receive a bonus equal to 25% of the total points you earned in that month from your net purchases. So, <br />in total, you will earn 1.25 points for your net purchases, and you'll see the bonus portion of your monthly points total <br />displayed separately in the rewards section of your monthly statement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+    </body>
+</html>

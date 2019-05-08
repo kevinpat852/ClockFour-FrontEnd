@@ -1,0 +1,355 @@
+/* Apply */
+#bg {
+    background-image: url('bg.jpg');
+    width: 1260px;
+    height: 1510px;
+}
+.container {
+    background-color: white;
+    width: 1100px;
+    height: 1510px;
+}
+#heroImg {
+    width: 400px;
+    height: 400px;
+}
+#content1 {
+    font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+    background-color: #F1F3E5;
+    position: relative;
+    right: 100px;
+}
+#moreRewards {
+    position: relative;
+    top: 25px;
+    text-align: left;
+    font-size: 29px;
+    font-weight: 800;
+    color: #000000;
+}
+#bonusRewards {
+    position: relative;
+    top: 15px;
+    text-align: left;
+    font-size: 29px;
+    font-weight: 800;
+    color: #000000;
+}
+#rewardsPoints {
+    position: relative;
+    top: 30px;
+    left: 280px;
+    text-align: left;
+    color:#592561;
+    font-size: 32px;
+    font-weight: 800;
+}
+#rewardsPoints2 {
+    position: relative;
+    top: 15px;
+    left: 280px;
+    text-align: left;
+    color:#592561;
+    font-size: 32px;
+    font-weight: 800;
+}
+#firstPurchase {
+    position: relative;
+    top: 5px;
+    left: 280px;
+    font-size: 20px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#noLimits {
+    position: relative;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    left: 280px;
+    font-weight:bold;
+    top: 15px;
+}
+#applyBtn {
+    position: relative;
+    top:55px;
+    left: 180px;
+    height: 40px;
+    width: 170px;
+    background-color:#0D1E69;
+    border: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+#applyBtn:hover {
+    cursor:pointer;
+}
+
+/* Benefits */
+#bonusesDiv {
+    position: relative;
+    right: 4px;
+    top: 10px;
+    background-color: #F6F6F6;
+    height: 130px;
+    width: 978px;
+}
+#bonus25 {
+}
+#noCaps {
+}
+#chipEnhanced {
+}
+
+#twntyfiveP {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight:800;
+    text-align: center;
+    color:#592561;
+}
+#capsP {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight:800;
+    text-align: center;
+    color:#592561;
+}
+#chipP {
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight:800;
+    text-align: center;
+    color:#592561;
+}
+#twntyfiveP2 {
+    position: relative;
+    top: 10px;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+    top: 15px;
+}
+#capsP2 {
+    position: relative;
+    top: 10px;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+    top: 15px;
+}
+#chipP2 {
+    position: relative;
+    top: 10px;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+    top: 15px;
+}
+#findMore {
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#rewardsHeader {
+    position: relative;
+    left: 115px;
+    top: 40px;
+    text-align: left;
+    font-size: 18px;
+    font-weight:800;
+    color:#592561;
+}
+#annualFeeHeader {
+    position: relative;
+    left: 115px;
+    top: 30px;
+    font-size: 18px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#pAPRHeader {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 18px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#benefitsHeader {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 18px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#requirementsHeader {
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 18px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#rewardsList{
+    position: relative;
+    left: 85px;
+    top: 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+li{padding-bottom: 10px;}
+#noAnnualFee {
+    position: relative;
+    left: 115px;
+    top: 40px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#pAPRContent {
+    position: relative;
+    left: 60px;
+    top: 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#benefitsContent {
+    position: relative;
+    left: 60px;
+    top: 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#requirementsContent {
+    position: relative;
+    left: 60px;
+    top: 45px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+
+/* Frequently Asked Questions */
+
+#frequentlyAskedQuestionsAcc {
+    position: relative;
+    right: 4px;
+    top: 45px;
+    background-color: #F6F6F6;
+    height: 40px;
+    width: 978px;
+    text-align: center;
+}
+#frequentlyAskedQ {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    text-align: left;
+    color: #0D1E69;
+    font-size: 18px;
+    font-weight: 800;
+}
+#caret {
+    color: #A7A7A7;
+}
+#earnHeader1 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    font-size: 16px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#earnHeader2 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    font-size: 16px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#earnHeader3 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    font-size: 16px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#earnHeader4 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    font-size: 16px;
+    font-weight:800;
+    text-align: left;
+    color:#592561;
+}
+#earnContent1 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#earnContent2 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#earnContent3 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+#earnContent4 {
+    position: relative;
+    top: 85px;
+    left: 230px;
+    text-align: left;
+    color: #000000;
+    font-size: 12px;
+    font-weight:bold;
+}
+.hide {
+    display: none;
+}
+.rotate {
+    transform: rotate(90deg);
+}
+#frequentlyAskedQuestionsAcc:hover {
+    cursor:pointer;
+}
